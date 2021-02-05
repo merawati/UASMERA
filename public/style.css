@@ -1,0 +1,83 @@
+body{
+	font-family: 'Poppins',sans-serif;
+}
+.carousel img{
+	height: 65vh;
+	width: 100%
+}
+.nav li a{
+	color: grey;
+}
+.wrapper-pagination {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.pagination {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.pagination a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    height: 42px;
+    width: 42px;
+    background-color: blue;
+    margin-right: 12px;
+    border-radius: 8px;
+    color: white;
+}
+
+.pagination a:hover {
+    background-color: #3498db;
+    color: white;
+}
+.list-jurnal{
+	width: 300px;
+	height:150px;
+}
+footer {
+    background-color: #7f8c8d;
+    border-top: 8px solid #3498db;
+    padding-top: 24px;
+    color: white;
+    margin: 0px -4px;
+}
+
+footer .section {
+    min-width: 33.33333333333333%;
+    max-width: 33.33333333333333%;
+    box-sizing: border-box;
+    padding: 4px;
+}
+
+footer .section .address {
+    display: flex;
+}
+
+footer .section .section-title {
+    display: flex;
+    align-items: center;
+}
+.carousel-caption{
+	display: flex !important;
+	font-size: 24px;
+	top: 150 !important;
+	left: 100 !important;
+	align-items: center;
+}
+.carousel-caption img{
+	width: 150px;
+	height: 150px;
+}
+.text h5{
+font-size: 30px;	
+}
+
+.card h5{
+	font-size: 15px;
+}
